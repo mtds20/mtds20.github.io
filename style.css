@@ -1,0 +1,156 @@
+
+html, body {
+  background-color: #efeeee;
+}
+
+/* .arrow-animation {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: heartBeat;
+  animation-duration: 1s;
+}
+*/
+
+#navbar-spy {
+  box-shadow: 0 3px 0 white;
+  min-height: 30px;
+}
+
+#hero-section {
+  background-image: url("img/rio-1991056_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  backdrop-filter: brightness(30%);
+
+  padding: clamp(100px, 30vh, 200px) 0;
+}
+
+#profile-img {
+  margin: clamp(10px, 20vh, 100px) auto;
+
+  background-image: url("img/profile_img.jpg");
+  background-size: cover;
+  border: 5px solid white;
+  border-radius: 100px;
+
+  height: clamp(100px, 20vh, 400px);
+
+  width: clamp(100px, 20vh, 400px);
+} 
+
+#hero-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  text-shadow: 2px 2px blue;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#hero-section h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  text-shadow: 1px 1px blue;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#projects-section h2 {
+  color: black;
+  text-shadow: 1px 1px blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#projects-section img {
+  height: clamp(100px, 20vh, 200px);
+  filter: grayscale(50%);
+  border-radius: 30px;
+  width: clamp(100px, 200px, 400px);
+}
+
+#meet-me-section h2 {
+  color: black;
+  text-shadow: 1px 1px blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#meet-me-section p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1rem, 1.3vw, 2rem);
+}
+
+#skills-section h2 {
+  color: black;
+  text-shadow: 1px 1px blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#skills-section img {
+  height: clamp(100px, 20vh, 200px);
+  filter: grayscale(50%);
+  border-radius: 100px;
+}
+
+#skills-section p, #projects-section p{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1rem, 1.3vw, 2rem);
+}
+
+#inspirations-section h2 {
+  color: black;
+  text-shadow: 1px 1px blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.col-centered{
+   float: none;
+   margin: 0 auto;
+}
+
+.carousel-item img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.carousel-caption {
+  text-shadow: 2px 2px blue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#contact-me-section h2 {
+  color: black;
+  text-shadow: 1px 1px blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.big{
+  font-size: 3rem;
+  margin: 30px;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.big:hover {
+  opacity: 0.5;
+}
+
+footer {
+  height: 20px;
+  padding: 70px 0;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
